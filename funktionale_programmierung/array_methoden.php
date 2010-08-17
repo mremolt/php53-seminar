@@ -20,6 +20,10 @@ $zahlen = array(1, 2, 3, 4, 5, 6, 7);
 // PHP 5.2
 array_walk($zahlen, 'verdopple');
 
+foreach ($zahlen as $zahl) {
+    verdopple($zahl);
+}
+
 // PHP 5.3
 array_walk($zahlen, function($zahl) {
     echo '<p>' . $zahl * 2 . '</p>';

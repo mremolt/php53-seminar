@@ -12,4 +12,6 @@ $meine_funktion = function () {
     return 'Hallo Welt';
 };
 
+var_dump($meine_funktion);
+
 echo $meine_funktion();

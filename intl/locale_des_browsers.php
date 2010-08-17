@@ -30,5 +30,5 @@ $locale = Locale::acceptFromHttp($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
 
 <p>
     Der menschliche Name der aktuellen Locale ist:
-    <?php echo Locale::getDisplayLanguage($locale); ?>
+    <?php echo Locale::getDisplayLanguage('de_CH'); ?>
 </p>

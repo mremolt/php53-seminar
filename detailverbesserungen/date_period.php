@@ -12,6 +12,8 @@
  * liefert: 09:10, 10:10, 11:10, 12:10, 13:10, 14:10, 15:10, 16:10, 17:10
  */
 
+date_default_timezone_set('Europe/Berlin');
+
 $start = new DateTime('2010-08-17 09:10');
 $end = new DateTime('2010-08-17 17:20');
 // Der Konstruktor ist schlechter lesbar, als die Methode 

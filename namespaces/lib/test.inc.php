@@ -11,7 +11,11 @@ namespace Webmasters;
 // voller Name Webmasters\Klasse1
 class Klasse1
 {
+    const BLA = 5;
 
+    function test() {
+        self::BLA;
+    }
 }
 
 // voller Name Webmasters\eine_funktion
@@ -34,5 +38,3 @@ function eine_funktion()
 {
     echo "<p>Anderer\eine_funktion</p>";
 }
-
-

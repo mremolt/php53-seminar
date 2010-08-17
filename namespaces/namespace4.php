@@ -14,4 +14,6 @@ eine_funktion();
 \Anderer\eine_funktion();
 
 // erzeugt Fehler, da PHP versucht Webmasters\Anderer\eine_funktion() aufzurufen
-Anderer\eine_funktion();
+\Anderer\eine_funktion();
+
+echo strtolower('ERGRTHZTJTUJZUJK');

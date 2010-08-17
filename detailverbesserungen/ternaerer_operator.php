@@ -15,3 +15,8 @@ $mein_text = $text ? $text : 'ein Standardtext';
 $mein_text = $text ?: 'ein Standardtext';
 
 echo $mein_text;
+
+
+$text = 'argh';
+$text || $text = 'bla';
+echo $text;

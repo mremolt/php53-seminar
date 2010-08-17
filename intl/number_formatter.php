@@ -25,7 +25,10 @@ $f_en_cur = new NumberFormatter('en', NumberFormatter::CURRENCY);
             siehe <a href="http://de.wikipedia.org/wiki/ISO_4217">Wikipedia</a>.
         </p>
 
-        <p>Deutsch: <?php echo $f_de_cur->formatCurrency(5355657.237, 'EUR') ?></p>
+        <p>Deutsch: <?php echo $f_en_cur->formatCurrency(5355657.237, 'EUR') ?></p>
         <p>Englisch: <?php echo $f_en_cur->formatCurrency(5355657.237, 'USD') ?></p>
     </body>
 </html>
+
+10.000,56
+10,000.56

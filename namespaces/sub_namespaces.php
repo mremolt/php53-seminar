@@ -1,8 +1,12 @@
 <?php
 require_once 'lib/sub_namespaces.inc.php';
 
+use Zend\Service\WindowsAzure\Storage\Blob;
+use Zend2\Service\WindowsAzure\Storage\Blob;
 use Webmasters\Schulungen;
 use Webmasters\Schulungen\Klasse3 as Klasse3AusSchulungen;
+
+$bla = new Blob\Stream();
 
 $test1 = new Schulungen\Klasse1();
 var_dump($test1);

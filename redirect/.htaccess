@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d [OR]
+RewriteCond %{REQUEST_FILENAME} (controller|views|models)
+#RewriteRule ^http://localhost/php53-seminar/redirect/index.php?site=1 http://localhost/php53-seminar/redirect/home/projekt_2010
+RewriteRule ^(.*)$ http://localhost/php53-seminar/redirect/index.php?site=$1 [QSA]
